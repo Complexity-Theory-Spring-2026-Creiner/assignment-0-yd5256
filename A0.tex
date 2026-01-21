@@ -21,8 +21,9 @@
 }
 \urlstyle{same}
 
-\title{Assignment X}
-\author{Your Name}
+\title{Assignment 0}
+\author{Yavuz Damkaci}
+\date{}
 
 \newtheorem{lemma}{Lemma}[section]
 
@@ -30,17 +31,33 @@
 
 \maketitle
 
-Here is where I would disclose anything that the graders and/or professor should know about, such as outside resources used or classmates who I worked with.
-
 \begin{enumerate}
-    \item My solution to problem 1
-    \begin{itemize}
-        \item[(a)] My solution to part a of problem 1
-        \item[(b)] My solution to part b of problem 2
-        \item[(c)] And so on
-    \end{itemize}
-    \item My solution to problem 2.
-    \item And so on.
+    \item By the chain rule from calculus, we have:
+    \begin{align}
+        \frac{d}{dx}\sin(x^2 + 6x) &= \cos(x^2 + 6x)\frac{d}{dx}(x^2 + 6x) \\
+        &= \cos(x^2 + 6x)(2x+6)
+    \end{align}
+    
+    \item DeMorgan's law says
+    \begin{equation}
+        \neg(A \cap B) \equiv \neg A \cup \neg B
+    \end{equation}
+    
+    \item
+    \[
+    \begin{array}{|c|c|c|}
+        \hline
+        A & B & A \land B \\
+        \hline
+        T & T & T \\
+        T & F & F \\
+        F & T & F \\
+        F & F & F \\
+        \hline
+    \end{array}
+    \]
+    
+    \item $\mathbb{R}$ denotes the real numbers. $\mathbb{N}$ denotes the natural numbers. It is of course the case that $\mathbb{N} \subseteq \mathbb{R}$
 \end{enumerate}
 
 \end{document}
